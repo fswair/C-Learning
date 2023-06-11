@@ -1,16 +1,7 @@
 #pragma once
-
-#include <iostream>
-#include "math.h"
+#include <string>
 
 using namespace std;
 
-void print(string text, bool endline = true)
-{
-    std::cout << text << (endline ? "\n" : "");
-}
-
-double square(double number)
-{
-    return pow(number, 2);
-}
+void print(string text, bool endline = true);
+double square(double number);
